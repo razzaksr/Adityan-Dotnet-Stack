@@ -1,0 +1,33 @@
+@PocAddress = http://localhost:5224/api/poc
+
+GET {{PocAddress}}/
+
+###
+
+POST {{PocAddress}}/
+Content-Type: application/json
+
+{
+    "Name":"Kumar",
+    "Role":"Lecturer",
+    "Contact":8765456789,
+    "Email":"kumar@gmail.com"
+}
+
+###
+
+# 
+
+PUT {{PocAddress}}/
+Content-Type: application/json
+
+{
+    "Name":"Prakash Kumar",
+    "Role":"Professor",
+    "Contact":6545654545,
+    "Email":"prakash@gmail.com"
+}
+
+###
+
+DELETE {{PocAddress}}/nagaraj@gmail.com

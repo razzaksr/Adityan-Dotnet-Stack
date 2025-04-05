@@ -1,0 +1,18 @@
+Dot net full stack:
+    Database: MS SQL
+    ORM     : Entity Framework
+    Backend : ASP.Net Core, Web API     >> Controller, Services, Model
+    Frontend: React JS
+
+Back end: 
+required tools:
+    .net sdk
+    rest client>> vscode extension
+
+    Models>> Model>> Business Class
+    Controllers >> routings
+        inherits ControllerBase
+        HttpMethods: [HttpPost]
+            GET, POST, PUT, DELETE
+            
+        
