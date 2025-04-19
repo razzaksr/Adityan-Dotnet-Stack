@@ -22,12 +22,13 @@ PUT {{PocAddress}}/
 Content-Type: application/json
 
 {
-    "Name":"Prakash Kumar",
-    "Role":"Professor",
-    "Contact":6545654545,
-    "Email":"prakash@gmail.com"
+    "id": 1,
+    "name": "Sabari",
+    "role": "Lecturer",
+    "contact": 8765456789,
+    "email": "ragu@gmail.com"
 }
 
 ###
 
-DELETE {{PocAddress}}/nagaraj@gmail.com
+DELETE {{PocAddress}}/kumar@gmail.com
